@@ -1,28 +1,55 @@
+
 # EX 60 C function to find the peek element of the queue using linked list.
-## DATE:
+
 ## AIM:
+
 To write a C function to find the peek element of the queue using linked list.
 
 ## Algorithm
-1. 
-2. 
-3. 
-4.  
-5.   
+
+
+Start.
+
+Define a variables.
+
+Write a functions to find peek in Queue using linked list.
+
+Read the value using scanf.
+
+Ask the user to make an input.
+
+Print out the answer.
+
+End  
 
 ## Program:
-```
-/*
-C function to find the peek element of the queue using linked list.
 
-Developed by: 
-RegisterNumber:  
-*/
-```
+struct Node
+
+{
+
+char data;
+
+struct Node *next;
+
+}*front=NULL,*rear=NULL; 
+
+void peek()
+
+{
+
+printf("peek:"); 
+
+printf("%c\n",front->data);
+
+}
+
 
 ## Output:
 
+![image](https://github.com/user-attachments/assets/8e47f413-177b-4aa5-8c8b-f3fd34ba948e)
 
 
 ## Result:
+
 Thus the program was executed and the output was verified successfully.
